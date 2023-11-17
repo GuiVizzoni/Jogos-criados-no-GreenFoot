@@ -14,9 +14,12 @@ public class alien1 extends Actor
      */
     public void act()
     {
-        move(2);
+        //move(2);
         //if (n1.score<10){
            // move(5);
         //}
+        if (isTouching(bola.class)){
+            removeTouching(bola.class);
+        }
     }
 }

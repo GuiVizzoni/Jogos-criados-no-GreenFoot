@@ -29,5 +29,7 @@ public class MyWorld extends World
 
         nave nave = new nave();
         addObject(nave,301,162);
+        alien1 alien1 = new alien1();
+        addObject(alien1,600,158);
     }
 }
